@@ -1,2 +1,2 @@
 #!/bin/bash
-main = putStr =<< (unlines . map (map head . words) . lines <$> getContents)
+cut -c1 | paste -s -d ''
