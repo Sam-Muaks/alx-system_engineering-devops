@@ -1,2 +1,2 @@
 #!/bin/bash
-cut -d' ' -f1 file
+main = putStr =<< (unlines . map (map head . words) . lines <$> getContents)
